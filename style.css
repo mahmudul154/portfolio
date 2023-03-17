@@ -1,0 +1,137 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+/* Global styles */
+body {
+  font-family: 'sans sarif';
+  font-size: 15px;
+  line-height: 1.2;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header styles */
+header {
+  background-color:  #cb3232;
+  text-align: left;
+  padding: 0rem;
+  box-shadow: 0 1px 2px #cb3232;
+}
+
+
+nav ul {
+list-style: none;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+color: #cb3232;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 0rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+.cta {
+  display: flex;
+  background-color: #cb3232;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.cta:hover {
+  background-color: #cb3232;
+}
+
+/* Main styles */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.hero {
+background-image: url('Red\ and\ White\ Simple\ Teacher\ Educator\ Portfolio\ Educational\ Video.png');
+background-size: cover;
+background-position: center;
+height: 700px;
+width: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.hero h1 {
+font-size: 28px;
+font-weight: lighter;
+color:  #ffffff;
+margin-bottom: 0px;
+}
+
+.hero p {
+font-size: 24px;
+color: #ffffff;
+margin-bottom: 40px;
+}
+
+
+section {
+  margin-bottom: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.portfolio-item {
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px #cb3232;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.portfolio-item img {
+  margin-bottom: 1rem;
+}
+
+.portfolio-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Footer styles */
+footer {
+  background-color: #cb3232;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
